@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import reactLogo from "../assets/react.svg";
-import viteLogo from "../../public/vite.svg";
 
 import images from "../index";
 
@@ -13,9 +12,8 @@ export default function About(){
         <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+          <img src={images.viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <img src={images.img1} alt="image"></img>
         <img src={images.img2} alt="image"></img>
         <img src={images.img3} alt="image"></img>
         <a href="https://react.dev" target="_blank">
