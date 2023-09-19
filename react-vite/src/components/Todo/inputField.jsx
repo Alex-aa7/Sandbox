@@ -1,4 +1,5 @@
 const InputField = ({text, handleInput, handleSubmit})=>{
+
     return(<label>
 <input
   type="text"
