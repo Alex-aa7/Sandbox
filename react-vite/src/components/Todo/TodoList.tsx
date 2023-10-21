@@ -1,8 +1,9 @@
-import {useSelector} from 'react-redux'
-import TodoItem from "./todoItem";
+import { useAppSelector } from '../../store/hook';
+import TodoItem from "./TodoItem";
 
-const TodoList = ({}) =>{
-  const todos=useSelector(state=>state.todos.todos);
+
+const TodoList: React.FC = ({}) =>{
+  const todos=useAppSelector(state=>state.todos.list);
 
     return(<ul>
         {todos.map((todo) => (
